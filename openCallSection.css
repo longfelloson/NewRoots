@@ -1,0 +1,61 @@
+#openCall {
+    display: flex;
+    width: 100%;
+    background-color: #F1F3EE;
+    justify-content: center;
+    align-items: center;
+}
+
+#openCall .wrap {
+    display: grid;
+    column-gap: 50px;
+    row-gap: 30px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, auto);
+    padding: 100px 0;
+    align-items: stretch;
+}
+
+#openCall .duration {
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    font-size: 32px;
+    font-weight: 800;
+    font-style: italic;
+    background-color: var(--main-color);
+
+}
+
+#potatoes {
+    grid-column: 1;
+    grid-row: 1 / 3;
+    /* padding: 5px;
+    height: 100%; */
+}
+
+#openCall .description {
+    font-size: 24px;
+    font-weight: 200;
+    grid-column: 2;
+    grid-row: 2;
+    
+}
+
+#openCall .contacts {
+    color: var(--main-color);
+    grid-column: 2;
+    grid-row: 3;
+}
+
+#openCall .contacts .text {
+    font-size: 24px;
+}
+
+#openCall .email {
+    font-size: 30px;
+    font-weight: 600;
+}
