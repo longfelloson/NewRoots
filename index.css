@@ -35,10 +35,11 @@ body {
 
 header {
     min-height: 1100px;
-    background-image: url("./assets/headerBackground.png");
+    background-image: url("./assets/backgroundSlideOne.png");
     background-size: cover; 
     background-repeat: no-repeat;
-
+    transition: background-image 1s ease-in-out;
+    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -131,18 +132,25 @@ header .italic {
 }
 
 /* Footer */
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #d2d2d2;
+}
+
 #organizations {
     background-color: #d2d2d2;
     display: flex;
     list-style: none;
     padding: 50px;
-    width: 100%;
-    justify-content: space-around;
+    width: 80%;
+    justify-content: space-between;
     align-items: center;
 }
 
 #organizations .organization img {
-    height: 80px;
+    height: 70px;
 }
 
 #organizations .organization span {
