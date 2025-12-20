@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght,CRSV@100..900,0&display=swap');
+
+:root {
+    --main-color: #1B12F5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.geologica {
+  font-family: "Geologica", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 1,
+    "SHRP" 0;
+}
+
+header {
+    min-height: 100vh;
+    background-image: url("./assets/headerBackground.png");
+    background-size: 1440px 1024px;
+    /* CHANGE: This ensures the grass is always at the bottom */
+    background-position: top; 
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    /* ADD: This creates space at the very bottom so the text isn't 
+       touching the edge of the screen, helping it align with the grass */
+    padding-bottom: 50px; 
+}
+
+#header-info {
+    display: flex;
+    gap: 20px; /* Reduced gap to keep text and button closer together */
+    align-items: center;
+    flex-direction: column;
+    /* ADD: Pushes the whole block towards the bottom if there's extra space */
+    margin-top: auto; 
+}
+
+#header-info .description {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    line-height: 1.6;
+    /* ADD: Text shadow makes white text readable on light-colored grass */
+    text-shadow: 0px 2px 4px rgba(0,0,0,0.5); 
+}
+
+
+header a {
+    font-size: 24px;
+    text-decoration: none;
+    font-family: 'Geologica';
+}
+
+header a:visited {
+    color: var(--main-color);
+}
+
+nav {
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
+nav ul {
+    width: 50%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+header .title {
+    font-size: 220px;
+    font-weight: 800;
+}
+
+header .italic {
+    font-style: italic;
+}
+
+#header-title {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: var(--main-color);
+}
+
+#header-title .subtitle {
+    font-size: 48px;
+    font-weight: 200;
+}
+
+#header-learn-more {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#header-learn-more span {
+    font-weight: 200;
+    font-size: 24px;
+}
+
+#header-learn-more button {
+    background: none;
+    border: none;
+}
+
