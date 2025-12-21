@@ -69,6 +69,7 @@
 
 #about .section.second {
     display: flex;
+    color: #353535;
     flex-direction: column;
     padding: 40px 100px;
     background-image: url('./assets/tree-in-pot.jpg');
