@@ -133,15 +133,45 @@
     }
     
     @media (max-width: 640px) {
-        nav {
+        header {
+            min-height: 500px;
+        }
+
+        header .title {
+            font-size: 68px;
+        }
+
+        #header-title {
+            margin: 100px auto;
+        }
+
+        #header-title .subtitle {
+            font-size: 28px;
+        }
+        
+        #header-info {
             margin-top: 0px;
         }
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
         nav ul {
-            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
         }
 
         nav ul a {
             font-size: 16px;
+        }
+
+        #header-info .description {
+            max-width: 80%;
         }
     }
 </style>
