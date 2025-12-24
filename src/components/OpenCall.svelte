@@ -85,7 +85,7 @@
 
 <section id="openCall">
     <div class="wrap">
-        <img src="/images/open-call.png" id="potatoes" alt="Three potatoes">
+        <img src="images/open-call.png" id="potatoes" alt="Three potatoes">
         <p class="duration geologica">
             From now until
             <br>

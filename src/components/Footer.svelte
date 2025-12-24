@@ -54,12 +54,12 @@
     <ul id="organizations">
         <li class="organization">
             <a href="https://www.coa.nl/nl">
-                <img src="/images/COA.png" alt="">
+                <img src="images/COA.png" alt="">
             </a>
         </li>
         <li class="organization">
             <a href="https://ru.freerussia.nl/">
-                <img src="/images/FreeRussia.svg" alt="">
+                <img src="images/FreeRussia.svg" alt="">
             </a>
         </li>
         <li class="organization">

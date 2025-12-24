@@ -133,7 +133,7 @@
 
 <section id="participants">
     <div id="work-sample">
-        <img src="/images//participantsWork.jpg" alt="Portrait of Donea Almir">
+        <img src="images/participantsWork.jpg" alt="Portrait of Donea Almir">
         <figure class="quote geologica">
             <blockquote>
                 “I am a designer and researcher exploring the relationship between plants, humans, and

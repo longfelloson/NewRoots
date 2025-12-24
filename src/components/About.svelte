@@ -73,7 +73,7 @@
         color: #353535;
         flex-direction: column;
         padding: 40px 100px;
-        background-image: url('/images/tree-in-pot.jpg');
+        background-image: url('images/tree-in-pot.jpg');
         min-height: 1100px;
         background-size: cover; 
         background-position: bottom right;
@@ -129,7 +129,7 @@
 <section id="about">
     <div class="section first">
         <div class="subsection first">
-            <img src="/images/donkeys.png" alt="A group of donkeys">
+            <img src="images/donkeys.png" alt="A group of donkeys">
             <div class="info geologica">
                 <hr>
                 <span class="title geologica">Belonging</span>
@@ -152,7 +152,7 @@
                         and stories.</li>
                 </ul>
             </div>
-            <img src="/images/people.jpg" alt="A group of people">
+            <img src="images/people.jpg" alt="A group of people">
         </div>
     </div>
     <div class="section second geologica">

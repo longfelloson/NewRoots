@@ -4,9 +4,9 @@
     let headerEl;
 
     const images = [
-        "/images/BackgroundSlideOne.png",
-        "/images/BackgroundSlideTwo.png",
-        "/images/BackgroundSlideThree.png"
+        "images/BackgroundSlideOne.png",
+        "images/BackgroundSlideTwo.png",
+        "images/BackgroundSlideThree.png"
     ];
 
     let currentIndex = 0;
@@ -40,7 +40,7 @@
 
     header {
         min-height: 1100px;
-        background-image: url("/images/BackgroundSlideOne.png");
+        background-image: url("images/BackgroundSlideOne.png");
         background-size: cover; 
         background-repeat: no-repeat;
         transition: background-image 1s ease-in-out;
