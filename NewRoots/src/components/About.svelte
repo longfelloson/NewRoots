@@ -26,7 +26,7 @@
         width: 60%;
         flex-direction: column;
         font-weight: 200;
-        font-size: 23px;
+        font-size: var(--second-text-size);
     }
 
     #about ul {
@@ -34,14 +34,14 @@
         padding-left: 1.2em;
         margin: 0;
         font-weight: 200;
-        font-size: 23px;    
+        font-size: var(--second-text-size);    
         gap: 8px;   
         display: flex;
         flex-direction: column;
     }
 
     #about .title {
-        font-size: 23px;
+        font-size: var(--second-text-size);
         font-weight: 600;
         margin: 30px 0;
     }
@@ -59,11 +59,11 @@
     #about .section.second .subsection {
         flex-direction: column;
         width: 64%;
-        font-size: 16px;
+        font-size: var(--first-text-size);
     }
 
     #about .subsection .subtitle {
-        font-size: 23px;
+        font-size: var(--second-text-size);
         font-weight: 200;
         margin-bottom: 30px;
     }
