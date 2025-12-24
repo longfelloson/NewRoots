@@ -89,6 +89,22 @@
     #soon-message .contact .email:hover {
         border-bottom: 2px solid #423bff;
     }
+
+    @media (max-width: 640px) {
+        #work-sample {
+            display: flex;
+            flex-direction: column;
+            align-items: normal;
+        }
+
+        #work-sample .quote {
+            gap: 0px;
+            font-size: 16px;
+            padding: 0px;
+            color: black;
+            width: 100%;
+        }
+    }
 </style>
 
 <section id="participants">
