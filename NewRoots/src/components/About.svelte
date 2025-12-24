@@ -32,7 +32,7 @@
     #about ul {
         list-style-position: outside;
         padding-left: 1.2em;
-        margin: none;
+        margin: 0;
         font-weight: 200;
         font-size: 23px;    
         gap: 8px;   
@@ -83,13 +83,28 @@
     }
 
     @media (max-width: 640px) {
-        #about .section.first {
+        #about .section.first, 
+        #about .section.second {
             padding: 60px 40px;
             gap: 14px;
         }
-        
+
+        #about .section.second {
+            background-image: none;
+            background-color: lightgrey;
+        }
+
+        #about .section.second {
+            padding-top: 0px;
+        }
+
         #about .subsection {
             flex-direction: column;
+        }
+
+        #about .section .subsection.first,
+        #about .section .subsection.second {
+            width: 100%;
         }
 
         #about .subsection hr {
@@ -99,10 +114,6 @@
         #about .info {
             width: 100%;
         }
-        /* #about p {
-            display: flex;
-            width: 100%;
-        } */
 
         #about .subsection img {
             max-width: 100%;
