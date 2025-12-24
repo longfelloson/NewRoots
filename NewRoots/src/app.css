@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght,CRSV@100..900,0&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+:root {
+    --main-color: #1B12F5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.geologica {
+  font-family: "Geologica", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 1,
+    "SHRP" 0;
+}
+
+.dm-sans-serif {
+  font-family: "DM Serif Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.wrap {
+    width: 80%;
+}
+
+.email:hover {
+    color: #423bff;
+    transition: 300ms ease-in-out;
+}
