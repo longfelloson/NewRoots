@@ -99,10 +99,34 @@
 
         #work-sample .quote {
             gap: 0px;
-            font-size: 16px;
+            font-size: var(--first-text-size);
             padding: 0px;
             color: black;
             width: 100%;
+        }
+
+        #soon-message {
+            padding: 40px 20px;
+        }
+
+        #soon-message .title {
+            max-width: 80%;
+            text-align: center;
+            font-size: var(--second-text-size);
+        }
+
+        #soon-message .soon {
+            font-size: var(--sixth-text-size);
+        }
+
+        #soon-message p {
+            font-size: var(--fourth-text-size);
+        }
+
+        #soon-message .contact {
+            font-size: var(--fourth-text-size);
+            text-align: center;
+            margin: 50px auto;
         }
     }
 </style>
