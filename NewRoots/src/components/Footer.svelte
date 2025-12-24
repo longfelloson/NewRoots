@@ -28,6 +28,26 @@
         color: #3e2f9d;
         font-size: 30px;
     }
+
+    @media (max-width: 640px) {
+        footer {
+            align-items: center;
+        }
+        #organizations {
+            padding: 40px 20px;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            gap: 50px;
+        }
+        #organizations .organization img {
+            max-width: 100%;
+        }
+
+        #organizations .organization span {
+            font-size: 20px;
+        }
+    }
 </style>
 
 <footer>
