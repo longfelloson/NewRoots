@@ -73,7 +73,7 @@
         color: #353535;
         flex-direction: column;
         padding: 40px 100px;
-        background-image: url('images/tree-in-pot.jpg');
+        background-image: url('/images/tree-in-pot.jpg');
         min-height: 1100px;
         background-size: cover; 
         background-position: bottom right;

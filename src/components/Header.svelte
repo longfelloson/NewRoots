@@ -209,7 +209,7 @@
         <div id="header-learn-more">
             <span class="geologica">Learn more</span>
             <button>
-                <img src="/icons/arrowDown.svg" alt="" srcset="">
+                <img src="icons/arrowDown.svg" alt="" srcset="">
             </button>
         </div>
     </div>
