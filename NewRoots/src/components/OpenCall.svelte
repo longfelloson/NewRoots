@@ -60,6 +60,27 @@
         font-size: 30px;
         font-weight: 600;
     }
+
+    @media (max-width: 640px) {
+        #openCall .wrap {
+            display: flex;
+            flex-direction: column;
+            padding-top: 40px;
+        }
+
+        #openCall {
+            text-align: center;
+        }
+
+
+        #openCall .email {
+            font-size: 22px;
+        }
+
+        #openCall .wrap img {
+            max-width: 100%;
+        }
+    }
 </style>
 
 <section id="openCall">
