@@ -82,9 +82,11 @@
     nav {
         display: flex;
         padding: 30px;
+        margin-top: 10px;
         justify-content: center;
         align-items: center;
     }
+
     nav ul {
         width: 50%;
         display: flex;
@@ -128,6 +130,19 @@
     #header-learn-more button {
         background: none;
         border: none;
+    }
+    
+    @media (max-width: 640px) {
+        nav {
+            margin-top: 0px;
+        }
+        nav ul {
+            width: 100%;
+        }
+
+        nav ul a {
+            font-size: 16px;
+        }
     }
 </style>
 
