@@ -81,6 +81,38 @@
         gap: 50px;
         
     }
+
+    @media (max-width: 640px) {
+        #about .section.first {
+            padding: 60px 40px;
+            gap: 14px;
+        }
+        
+        #about .subsection {
+            flex-direction: column;
+        }
+
+        #about .subsection hr {
+            display: none;
+        }
+        
+        #about .info {
+            width: 100%;
+        }
+        /* #about p {
+            display: flex;
+            width: 100%;
+        } */
+
+        #about .subsection img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        #about .subsection.second img {
+            margin-top: 40px;
+        }
+    }
 </style>
 
 <section id="about">
